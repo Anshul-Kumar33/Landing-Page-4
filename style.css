@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 192, 203, 0.693);
+    position: relative;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+}
+
+#nav h5{
+    font-size: 15px;
+    font-family: aeonik;
+    padding: 4px 9px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    margin: 0 7px;
+    font-weight: 500;
+    transition: all ease 1.5s;
+}
+
+#nav h5:hover{
+    /* box-shadow: 0 0 5px rgba(240, 104, 127, 0.693), 0 0 10px rgba(240, 104, 127, 0.693), 0 0 15px rgba(240, 104, 127, 0.693); */
+    box-shadow: 0 0 5px rgb(47, 47, 47), 0 0 10px rgb(47, 47, 47), 0 0 15px rgb(47, 47, 47);
+}
+
+#left {
+    font-size: 15px;
+    font-family: aeonik;
+    left: 1%;
+    font-weight: 500;   
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+#right{
+    font-size: 15px;
+    font-family: aeonik;
+    left: 1%;
+    font-weight: 500;   
+    position: absolute;
+    top: 3%;
+    left: 94%;
+}
+
+#center{
+    height: 529px;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    padding: 10px 20px;
+}
+
+#center h1{
+    font-size: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    white-space: nowrap;
+    font-weight: 900;
+    font-style: italic;
+    z-index: 999;
+}
+
+#center h2{
+    font-size: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    left: 49.6%;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    color: transparent;
+    top: -0px;
+    transform: translate(-50%,0);
+    white-space: nowrap;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#image{
+    position: absolute;
+    top: 60%;
+    height: 65%;
+    width: 62%;
+    transform: translate(-50%,-50%);
+    left: 49%;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+#image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 80% 78%;
+    padding: 3%;
+}
+
+button{
+    padding: 17px 36px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 50%;
+    text-transform: capitalize;
+    background-color: lightgreen;
+    font-family: serif;
+    font-weight: 500;
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    transform: rotate(-6deg);
+}
+
+#shoes{
+    height: 200px;
+    width: 200px;
+    top: 0%;
+    position: absolute;
+    border: 2px solid black;
+    left: -15%;
+    background-size: cover;
+    background-position: bottom;
+    transform: rotate(6deg);
+    
+}
+
+#shoes img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0%;
+    object-fit: cover;
+    padding: 0%;
+}
+
+#cover{
+    height: 200px;
+    width: 200px;
+    top: 0%;
+    position: relative;
+    border: 2px solid black;
+    left: -12%;
+    background-size: cover;
+    background-position: bottom;
+    transform: rotate(6deg);
+    top: -105%;
+}
+
+#cover img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0%;
+    object-fit: cover;
+    padding: 0%;
+}
+
+#button2{
+    padding: 17px 36px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 50%;
+    text-transform: capitalize;
+    background-color: lightgreen;
+    font-family: serif;
+    font-weight: 500;
+    position: absolute;
+    right: 90%;
+    top: 80%;
+    transform: rotate(25deg);
+    white-space: nowrap;
+}
+
+#shoes3{
+    height: 200px;
+    width: 200px;
+    top: 33%;
+    position: absolute;
+    border: 2px solid black;
+    left: 85%;
+    background-size: cover;
+    background-position: bottom;
+    transform: rotate(-10deg);
+    
+}
+
+#shoes3 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0%;
+    object-fit: cover;
+    padding: 0%;
+}
+
+#cover2{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border: 2px solid black;
+    left: 82%;
+    background-size: cover;
+    background-position: bottom;
+    transform: rotate(-10deg);
+    top: -133%;
+}
+
+#cover2 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0%;
+    object-fit: cover;
+    padding: 0%;
+}
+
+.ri-mist-line {
+    top: 103%;
+    position: absolute;
+    right: 50%;
+}
